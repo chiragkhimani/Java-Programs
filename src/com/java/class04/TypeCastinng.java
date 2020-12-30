@@ -14,11 +14,5 @@ public class TypeCastinng {
 		
 		String str = "123";
 		
-		int k = str;
-		
-		boolean b = (boolean)"true";
-		
-		System.out.println(k);
-		
 	}
 }
