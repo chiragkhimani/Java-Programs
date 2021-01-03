@@ -9,19 +9,19 @@ public class CalculatorUsingSwitch {
 		switch (c) {
 
 		case "Add":
-			System.out.println(num1 + num2);
+			sum(num1, num2);
 			break;
 
 		case "Sub":
-			System.out.println(num1 - num2);
+			sub(num1, num2);
 			break;
 
 		case "Mul":
-			System.out.println(num1 * num2);
+			mul(num1, num2);
 			break;
 
 		case "Div":
-			System.out.println(num1 / num2);
+			div(num1, num2);
 			break;
 
 		default:
@@ -29,5 +29,21 @@ public class CalculatorUsingSwitch {
 
 		}
 
+	}
+
+	static void sum(int a, int b) {
+		System.out.println(a + b);
+	}
+
+	static void sub(int a, int b) {
+		System.out.println(a - b);
+	}
+
+	static void mul(int a, int b) {
+		System.out.println(a * b);
+	}
+
+	static void div(int a, int b) {
+		System.out.println(a / b);
 	}
 }
