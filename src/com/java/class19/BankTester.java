@@ -8,6 +8,7 @@ public class BankTester {
 		Bank acc4 = new Bank(5000, "Inna");
 		Bank acc5 = new Bank(5000, "Rabia");
 		
+		
 		System.out.println(acc1.accNumber);
 		System.out.println(acc2.accNumber);
 		System.out.println(acc3.accNumber);

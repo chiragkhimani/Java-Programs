@@ -27,6 +27,5 @@ public class GradeSystem {
 		} else {
 			System.out.print("Fail");
 		}
-
 	}
 }
